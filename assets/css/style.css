@@ -142,13 +142,13 @@ html {
     text-align: center;
     box-shadow: 5px 5px 5px rgba(14, 14, 14, 0.7);
     transition: transform 0.4s, box-shadow 0.4s;
-    color: #ffffff;;
+    color: #ffffff;
+
 }
 
 .projects .card-holder p,
 .projects .card-holder h1 {
     opacity: 70%;
-
 }
 
 .projects .card-holder:hover {
@@ -164,6 +164,7 @@ html {
     min-width: 250px;
     box-shadow: 0 1px 2px 2px rgb(25, 65, 155);
     transition: transform 0.7s, box-shadow 0.7s;
+    margin-top: 1rem;
 }
 
 .projects .card-holder .card-link button:hover {
@@ -172,16 +173,21 @@ html {
 }
 
 .socials {
-    margin-top: 50px;
+    margin-top: 100px;
     color: #fff;
     text-align: center;
     font-family: 'Roboto', sans-serif;
 }
 
-.socials .socials-heading {
+.socials .socials-heading,
+.socials .socials-innerheading {
     text-align: center;
+    margin-bottom: 40px;
 }
 
+.socials .socials-list .socials-component{
+    margin-bottom: 20px;
+}
 
 .socials .socials-list .socials-twitter i {
     color: #055ada;

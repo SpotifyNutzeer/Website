@@ -29,15 +29,15 @@ $title = 'Paul';
 </head>
 
 <body>
-<nav class="navbar navbar-light navbar-expand-md navigation">
-    <div class="container"><a class="navbar-brand" href="#">SpotifyNutzer & Mikka </a>
+<nav class="navbar navbar-light navbar-expand-md navigation" id="nav">
+    <div class="container"><a class="navbar-brand" href="/">SpotifyNutzer & Mikka </a>
         <button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span
                     class="navbar-toggler-icon"></span></button>
         <div class="collapse navbar-collapse" id="navcol-1">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item"><a class="nav-link" href="#about">Über uns</a></li>
                 <li class="nav-item"><a class="nav-link" href="#projects">Projekte</a></li>
-                <!--  <li class="nav-item"><a class="nav-link" href="#contact">Kontakt</a></li> !-->
+                <li class="nav-item"><a class="nav-link" href="#socials">Präsenzen</a></li>
             </ul>
         </div>
     </div>
@@ -122,7 +122,7 @@ $title = 'Paul';
 </div>
 
 <div class="socials">
-    <div class="container">
+    <div class="container" id="socials">
         <div class="socials-heading">
             <h1>Besuche</h1>
         </div>
@@ -134,7 +134,7 @@ $title = 'Paul';
                 </div>
                 <div class="socials-list">
                     <a href="https://github.com/SpotifyNutzeer" target="_blank">
-                        <div class="socials-github">
+                        <div class="socials-github socials-component">
                             <div class="github">
                                 <i class="fab fa-github"><span>auf GitHub</span></i>
                             </div>
@@ -142,7 +142,7 @@ $title = 'Paul';
                     </a>
 
                     <a href="https://twitter.com/SpotifyNutzer" target="_blank">
-                        <div class="socials-twitter">
+                        <div class="socials-twitter socials-component">
                             <div class="twitter">
                                 <i class="fab fa-twitter"><span>auf Twitter</span></i>
                             </div>
@@ -156,14 +156,14 @@ $title = 'Paul';
                 </div>
                 <div class="socials-list">
                     <a href="https://github.com/kxmpetentes" target="_blank">
-                        <div class="socials-github">
+                        <div class="socials-github socials-component">
                             <div class="github">
                                 <i class="fab fa-github"><span>auf GitHub</span></i>
                             </div>
                         </div>
                     </a>
                     <a href="https://twitter.com/kxmpetentes" target="_blank">
-                        <div class="socials-twitter">
+                        <div class="socials-twitter socials-component">
                             <div class="twitter">
                                 <i class="fab fa-twitter"><span>auf Twitter</span></i>
                             </div>
