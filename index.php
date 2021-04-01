@@ -9,7 +9,6 @@
  * TODO: contact Form?
  * TODO: some content to work with
  * TODO: add site description
- * TODO: fix some css
  */
 
 $title = 'Paul';
@@ -67,11 +66,8 @@ $title = 'Paul';
             <h1></h1>
         </div>
         <div class="col-md-4">
-
             <div class="card-border">
-
                 <div class="card-holder">
-
                     <div class="card-image">
                     </div>
                     <div class="card-heading">
@@ -81,21 +77,13 @@ $title = 'Paul';
                     </div>
                     <div class="card-text">
                         <p>und ja </p>
-
                     </div>
-
-
                 </div>
-
             </div>
-
         </div>
         <div class="col-md-4">
-
             <div class="card-border">
-
                 <div class="card-holder">
-
                     <div class="card-image">
                     </div>
                     <div class="card-heading">
@@ -105,21 +93,13 @@ $title = 'Paul';
                     </div>
                     <div class="card-text">
                         <p>und ja </p>
-
                     </div>
-
-
                 </div>
-
             </div>
-
         </div>
         <div class="col-md-4">
-
             <div class="card-border">
-
                 <div class="card-holder">
-
                     <div class="card-image">
                     </div>
                     <div class="card-heading">
@@ -135,11 +115,8 @@ $title = 'Paul';
                             <button>Project</button>
                         </a>
                     </div>
-
                 </div>
-
             </div>
-
         </div>
     </div>
 </div>
@@ -147,70 +124,49 @@ $title = 'Paul';
 <div class="socials">
     <div class="container">
         <div class="socials-heading">
-
             <h1>Besuche</h1>
-
         </div>
         <div class="row">
-
 
             <div class="col-md-6 socials-spotifynutzer">
                 <div class="socials-innerheading">
                     <h2>SpotifyNutzer</h2>
                 </div>
                 <div class="socials-list">
-
                     <a href="https://github.com/SpotifyNutzeer" target="_blank">
                         <div class="socials-github">
-
                             <div class="github">
                                 <i class="fab fa-github"><span>auf GitHub</span></i>
-
                             </div>
-
-
                         </div>
                     </a>
 
                     <a href="https://twitter.com/SpotifyNutzer" target="_blank">
                         <div class="socials-twitter">
-
                             <div class="twitter">
                                 <i class="fab fa-twitter"><span>auf Twitter</span></i>
                             </div>
-
-
                         </div>
                     </a>
                 </div>
             </div>
             <div class="col-md-6 socials-kxmpetentes">
-
                 <div class="socials-innerheading">
                     <h2>kxmpetentes</h2>
                 </div>
-
                 <div class="socials-list">
-
                     <a href="https://github.com/kxmpetentes" target="_blank">
                         <div class="socials-github">
-
                             <div class="github">
                                 <i class="fab fa-github"><span>auf GitHub</span></i>
                             </div>
-
-
                         </div>
                     </a>
-
                     <a href="https://twitter.com/kxmpetentes" target="_blank">
                         <div class="socials-twitter">
-
                             <div class="twitter">
-                                <i class="fab fa-twitter"><span >auf Twitter</span></i>
+                                <i class="fab fa-twitter"><span>auf Twitter</span></i>
                             </div>
-
-
                         </div>
                     </a>
 
