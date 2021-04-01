@@ -23,7 +23,6 @@ $title = 'Paul';
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Paul</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/assets/css/contact.css">
     <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
@@ -223,17 +222,6 @@ $title = 'Paul';
 </div>
 
 
-<!-- vielleicht ein contact form, vielleicht auch nicht
-<section class="contact-clean contact" id="contact">
-    <form method="post">
-        <h2 class="text-center">Kontakt</h2>
-        <div class="form-group"><input class="form-control" type="text" name="name" placeholder="Name"></div>
-        <div class="form-group"><input class="form-control is-invalid" type="email" name="email" placeholder="Email"><small class="form-text text-danger">Please enter a correct email address.</small></div>
-        <div class="form-group"><textarea class="form-control" name="message" placeholder="Message" rows="14"></textarea></div>
-        <div class="form-group"><button class="btn btn-primary" type="submit">send </button></div>
-    </form>
-</section>
-!-->
 <footer class="footer">
     <ul class="list-inline">
         <li class="list-inline-item"><a href="/impressum">Impressum</a></li>
