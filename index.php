@@ -146,7 +146,7 @@ $title = 'Paul';
     <div class="container">
         <div class="socials-heading">
 
-            <h1>ich weiß nicht....</h1>
+            <h1>Besuche</h1>
 
         </div>
         <div class="row">
@@ -154,7 +154,7 @@ $title = 'Paul';
 
             <div class="col-md-6 socials-spotifynutzer">
                 <div class="socials-innerheading">
-                    <h2>Paul</h2>
+                    <h2>SpotifyNutzer</h2>
                 </div>
                 <div class="socials-list">
 
@@ -162,8 +162,8 @@ $title = 'Paul';
                         <div class="socials-github">
 
                             <div class="github">
-                                <i class="fab fa-github"></i>
-                                <p id="test" class="socials-text">SpotifyNutzeer auf GitHub</p>
+                                <i class="fab fa-github"><span>auf GitHub</span></i>
+
                             </div>
 
 
@@ -174,8 +174,7 @@ $title = 'Paul';
                         <div class="socials-twitter">
 
                             <div class="twitter">
-                                <i class="fab fa-twitter"></i>
-                                <p id="test" class="socials-text">SpotifyNutzer auf Twitter</p>
+                                <i class="fab fa-twitter"><span>auf Twitter</span></i>
                             </div>
 
 
@@ -186,7 +185,7 @@ $title = 'Paul';
             <div class="col-md-6 socials-kxmpetentes">
 
                 <div class="socials-innerheading">
-                    <h2>nicht Paul</h2>
+                    <h2>kxmpetentes</h2>
                 </div>
 
                 <div class="socials-list">
@@ -195,8 +194,7 @@ $title = 'Paul';
                         <div class="socials-github">
 
                             <div class="github">
-                                <i class="fab fa-github"></i>
-                                <p id="test" class="socials-text">kxmpetentes auf GitHub</p>
+                                <i class="fab fa-github"><span>auf GitHub</span></i>
                             </div>
 
 
@@ -207,8 +205,7 @@ $title = 'Paul';
                         <div class="socials-twitter">
 
                             <div class="twitter">
-                                <i class="fab fa-twitter"></i>
-                                <p id="test" class="socials-text">kxmpetentes auf Twitter</p>
+                                <i class="fab fa-twitter"><span >auf Twitter</span></i>
                             </div>
 
 

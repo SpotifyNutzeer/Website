@@ -99,9 +99,6 @@ html {
 
 
 
-
-
-
 .about{
     text-align: center;
     background-color: #1c1c28;
@@ -190,8 +187,11 @@ html {
     border-radius: 15px;
     box-shadow: 0 0 2px 5px rgba(0,0,0,0.2);
     margin: auto;
-    transition: max-width 0.5s, text-align 0.5s;
+    transition: max-width 0.5s;
     margin-bottom: 20px;
+    text-align: left;
+    overflow: hidden;
+    word-wrap: break-word;
 }
 .socials .socials-list .socials-twitter i{
     color: #055ada;
@@ -200,35 +200,51 @@ html {
 .socials .socials-list .socials-github i,
 .socials .socials-list .socials-twitter i{
     font-size: 50px;
+    white-space: nowrap;
+}
+.socials .socials-list .socials-github span,
+.socials .socials-list .socials-twitter span {
+    overflow: hidden;
+    font-size: 35px;
+    white-space: nowrap;
+    color: #fff;
+    text-align: right;
+    visibility: hidden;
+    transition: visibility 0.1s, opacity 3s;
+    max-height: 40px;
+    opacity: 0%;
+    top: -50px;
+    position: sticky;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+
 }
 .socials .socials-list .socials-github .socials-text,
 .socials .socials-list .socials-github .socials-text,
 .socials .socials-list .socials-twitter .socials-text,
 .socials .socials-list .socials-twitter .socials-text{
-    position: absolute;
-    color: #fff;
-    visibility: hidden;
-    transition: visibility 0.1s;
     bottom: 5px;
     margin-left: 60px;
-    text-align: center;
-    word-wrap: break-word;
-    overflow: hidden;
-    font-size: 20px;
 
+    font-size: 20px;
+    margin-bottom: 20px;
 }
+
+
 .socials .socials-list .socials-github:hover,
 .socials .socials-list .socials-github:active,
 .socials .socials-list .socials-twitter:hover,
 .socials .socials-list .socials-twitter:active {
-    max-width: 310px;
-    text-align: left;
+    max-width: 300px;
 }
-.socials .socials-list .socials-github:hover .socials-text,
-.socials .socials-list .socials-github:active .socials-text,
-.socials .socials-list .socials-twitter:hover .socials-text,
-.socials .socials-list .socials-twitter:active .socials-text{
+.socials .socials-list .socials-github:hover span,
+.socials .socials-list .socials-github:active span,
+.socials .socials-list .socials-twitter:hover  span,
+.socials .socials-list .socials-twitter:active  span{
     visibility: visible;
+    opacity: 90%;
 }
 
 
