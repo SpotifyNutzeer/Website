@@ -172,6 +172,13 @@ html {
     box-shadow: 0 6px 4px 4px rgba(0, 0, 0, 0.2);
 }
 
+.projects .heading{
+    text-align: center;
+    color: #fff;
+    opacity: 80%;
+    margin-bottom: 30px;
+}
+
 .socials {
     margin-top: 100px;
     color: #fff;

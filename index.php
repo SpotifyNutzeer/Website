@@ -56,24 +56,24 @@
         </div>
     </div>
 </div>
-<hr>
+
 <div class="container projects" id="projects">
+    <div class="heading">
+        <h1>Unsere Projekte</h1>
+    </div>
     <div class="row">
-        <div class="heading">
-            <h1></h1>
-        </div>
+
         <div class="col-md-4">
+
             <div class="card-border">
                 <div class="card-holder">
-                    <div class="card-image">
-                    </div>
                     <div class="card-heading">
                         <h1>
-                            und ja
+                            Überschrift
                         </h1>
                     </div>
                     <div class="card-text">
-                        <p>und ja </p>
+                        <p>Beschreibung</p>
                     </div>
                     <div class="card-link">
                         <a href="http://linktoProject/">
@@ -86,15 +86,13 @@
         <div class="col-md-4">
             <div class="card-border">
                 <div class="card-holder">
-                    <div class="card-image">
-                    </div>
                     <div class="card-heading">
                         <h1>
-                            und ja
+                            Überschrift
                         </h1>
                     </div>
                     <div class="card-text">
-                        <p>und ja </p>
+                        <p>Beschreibung</p>
                     </div>
                     <div class="card-link">
                         <a href="http://linktoProject/">
@@ -107,15 +105,14 @@
         <div class="col-md-4">
             <div class="card-border">
                 <div class="card-holder">
-                    <div class="card-image">
-                    </div>
+
                     <div class="card-heading">
                         <h1>
-                            und ja
+                            Überschrift
                         </h1>
                     </div>
                     <div class="card-text">
-                        <p>und ja </p>
+                        <p>Beschreibung</p>
                     </div>
                     <div class="card-link">
                         <a href="http://linktoProject/">
