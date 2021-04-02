@@ -6,12 +6,9 @@
 
 /**
  * TODO: remove cdn's
- * TODO: contact Form?
  * TODO: some content to work with
  * TODO: add site description
  */
-
-$title = 'Paul';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -35,9 +32,9 @@ $title = 'Paul';
                     class="navbar-toggler-icon"></span></button>
         <div class="collapse navbar-collapse" id="navcol-1">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item"><a class="nav-link" href="#about">Über uns</a></li>
-                <li class="nav-item"><a class="nav-link" href="#projects">Projekte</a></li>
-                <li class="nav-item"><a class="nav-link" href="#socials">Präsenzen</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about" onclick="scrollToTarget('#about')">Über uns</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects" onclick="scrollToTarget('#projects')">Projekte</a></li>
+                <li class="nav-item"><a class="nav-link" href="#socials" onclick="scrollToTarget('#socials')">Präsenzen</a></li>
             </ul>
         </div>
     </div>
@@ -78,6 +75,11 @@ $title = 'Paul';
                     <div class="card-text">
                         <p>und ja </p>
                     </div>
+                    <div class="card-link">
+                        <a href="http://linktoProject/">
+                            <button>Project</button>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -93,6 +95,11 @@ $title = 'Paul';
                     </div>
                     <div class="card-text">
                         <p>und ja </p>
+                    </div>
+                    <div class="card-link">
+                        <a href="http://linktoProject/">
+                            <button>Project</button>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -187,7 +194,14 @@ $title = 'Paul';
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.bundle.min.js"></script>
 <script src="https://kit.fontawesome.com/2226ce608c.js" crossorigin="anonymous"></script>
-
+<script>
+    function scrollToTarget(target) {
+        $('html,body').animate({
+                scrollTop: $(target).offset().top
+            },
+            'slow');
+    }
+</script>
 </body>
 
 </html>
