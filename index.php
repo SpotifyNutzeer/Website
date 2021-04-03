@@ -69,15 +69,15 @@
                 <div class="card-holder">
                     <div class="card-heading">
                         <h1>
-                            Überschrift
+                            HoodBot
                         </h1>
                     </div>
                     <div class="card-text">
-                        <p>Beschreibung</p>
+                        <p>Ein DiscordBot, der von SpotifyNutzer und kxmpetentes geschrieben wird.</p>
                     </div>
                     <div class="card-link">
-                        <a href="http://linktoProject/">
-                            <button>Project</button>
+                        <a href="https://top.gg/bot/765850867508445215">
+                            <button>Top.gg</button>
                         </a>
                     </div>
                 </div>
@@ -88,15 +88,15 @@
                 <div class="card-holder">
                     <div class="card-heading">
                         <h1>
-                            Überschrift
+                            MinecraftCore
                         </h1>
                     </div>
                     <div class="card-text">
-                        <p>Beschreibung</p>
+                        <p>Eine MinecraftCore API, in Kotlin geschrieben, um euch das Programmieren mit Spigot leichter zu machen!</p>
                     </div>
                     <div class="card-link">
-                        <a href="http://linktoProject/">
-                            <button>Project</button>
+                        <a href="https://github.com/SpotifyNutzeer/MinecraftCore">
+                            <button>GitHub</button>
                         </a>
                     </div>
                 </div>
@@ -108,14 +108,14 @@
 
                     <div class="card-heading">
                         <h1>
-                            Überschrift
+                            DiscordCore
                         </h1>
                     </div>
                     <div class="card-text">
-                        <p>Beschreibung</p>
+                        <p>Eine CoreApi, in Java geschrieben, um euch das Programmieren mit JDA zu erleichtern.</p>
                     </div>
                     <div class="card-link">
-                        <a href="http://linktoProject/">
+                        <a href="https://github.com/kxmpetentes/DiscordCore">
                             <button>Project</button>
                         </a>
                     </div>
