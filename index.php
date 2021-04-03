@@ -71,10 +71,11 @@
                         <h1>
                             HoodBot
                         </h1>
+                        <div class="card-text">
+                            <p>Ein DiscordBot, der von SpotifyNutzer und kxmpetentes geschrieben wird.</p>
+                        </div>
                     </div>
-                    <div class="card-text">
-                        <p>Ein DiscordBot, der von SpotifyNutzer und kxmpetentes geschrieben wird.</p>
-                    </div>
+
                     <div class="card-link">
                         <a href="https://top.gg/bot/765850867508445215">
                             <button>Top.gg</button>
@@ -90,9 +91,9 @@
                         <h1>
                             MinecraftCore
                         </h1>
-                    </div>
-                    <div class="card-text">
-                        <p>Eine MinecraftCore API, in Kotlin geschrieben, um euch das Programmieren mit Spigot leichter zu machen!</p>
+                        <div class="card-text">
+                            <p>Eine MinecraftCore API, in Kotlin geschrieben, um euch das Programmieren mit Spigot leichter zu machen!</p>
+                        </div>
                     </div>
                     <div class="card-link">
                         <a href="https://github.com/SpotifyNutzeer/MinecraftCore">
@@ -110,10 +111,11 @@
                         <h1>
                             DiscordCore
                         </h1>
+                        <div class="card-text">
+                            <p>Eine CoreApi, in Java geschrieben, um euch das Programmieren mit JDA zu erleichtern.</p>
+                        </div>
                     </div>
-                    <div class="card-text">
-                        <p>Eine CoreApi, in Java geschrieben, um euch das Programmieren mit JDA zu erleichtern.</p>
-                    </div>
+
                     <div class="card-link">
                         <a href="https://github.com/kxmpetentes/DiscordCore">
                             <button>Project</button>
