@@ -1,15 +1,3 @@
-<?php
-/**
- * @author Julian Gransee
- * @package me.gransee.client.spotifyNutzer
- */
-
-/**
- * TODO: remove cdn's
- * TODO: some content to work with
- * TODO: add site description
- */
-?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -32,9 +20,12 @@
                     class="navbar-toggler-icon"></span></button>
         <div class="collapse navbar-collapse" id="navcol-1">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item"><a class="nav-link" href="#about" onclick="scrollToTarget('#about')">Über uns</a></li>
-                <li class="nav-item"><a class="nav-link" href="#projects" onclick="scrollToTarget('#projects')">Projekte</a></li>
-                <li class="nav-item"><a class="nav-link" href="#socials" onclick="scrollToTarget('#socials')">Präsenzen</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about" onclick="scrollToTarget('#about')">Über uns</a>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="#projects"
+                                        onclick="scrollToTarget('#projects')">Projekte</a></li>
+                <li class="nav-item"><a class="nav-link" href="#socials"
+                                        onclick="scrollToTarget('#socials')">Präsenzen</a></li>
             </ul>
         </div>
     </div>
@@ -92,7 +83,8 @@
                             MinecraftCore
                         </h1>
                         <div class="card-text">
-                            <p>Eine MinecraftCore API, in Kotlin geschrieben, um euch das Programmieren mit Spigot leichter zu machen!</p>
+                            <p>Eine MinecraftCore API, in Kotlin geschrieben, um euch das Programmieren mit Spigot
+                                leichter zu machen!</p>
                         </div>
                     </div>
                     <div class="card-link">

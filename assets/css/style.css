@@ -12,11 +12,10 @@ html {
     padding-bottom: .75rem;
     color: #333;
     border-radius: 0;
-    box-shadow: none;
     border: none;
     margin-bottom: 0;
-    border-bottom: 0px solid;
-    box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.5);
+    border-bottom: 0 solid;
+    box-shadow: 0 5px 7px rgba(0, 0, 0, 0.5);
 }
 
 @media (min-width: 768px) {
@@ -53,15 +52,8 @@ html {
     color: #888;
 }
 
-.navigation .navbar-collapse, .navigation .form-inline {
+.navigation .navbar-collapse {
     border-top-color: #ddd;
-}
-
-.navigation.navbar-light .navbar-nav .nav-link.active, .navigation.navbar-light .navbar-nav .nav-link.active:focus, .navigation.navbar-light .navbar-nav .nav-link.active:hover {
-    color: #ffffff;
-    box-shadow: none;
-    background: none;
-    pointer-events: none;
 }
 
 .navigation.navbar .navbar-nav .nav-link {
@@ -80,23 +72,6 @@ html {
     background-color: transparent;
 }
 
-.navigation .navbar-nav > li > .dropdown-menu {
-    margin-top: -5px;
-    box-shadow: none;
-    background-color: #fff;
-    border-radius: 2px;
-}
-
-.navigation .dropdown-menu .dropdown-item:focus, .navigation .dropdown-menu .dropdown-item {
-    line-height: 2;
-    color: #37434d;
-}
-
-.navigation .dropdown-menu .dropdown-item:focus, .navigation .dropdown-menu .dropdown-item:hover {
-    background: #eee;
-    color: inherit;
-}
-
 
 .about {
     text-align: center;
@@ -109,6 +84,7 @@ html {
     color: #ffffff;
     opacity: 70%;
 }
+
 .projects .col-md-4 {
     min-width: 340px;
 }
@@ -148,7 +124,7 @@ html {
     justify-content: space-between;
 }
 
-.projects .card-holder .card-text{
+.projects .card-holder .card-text {
     justify-items: normal;
 }
 
@@ -180,7 +156,7 @@ html {
     box-shadow: 0 6px 4px 4px rgba(0, 0, 0, 0.2);
 }
 
-.projects .heading{
+.projects .heading {
     text-align: center;
     color: #fff;
     opacity: 80%;
@@ -200,7 +176,7 @@ html {
     margin-bottom: 40px;
 }
 
-.socials .socials-list .socials-component{
+.socials .socials-list .socials-component {
     margin-bottom: 20px;
 }
 
@@ -212,6 +188,21 @@ html {
 .socials .socials-list .socials-twitter i {
     font-size: 50px;
     white-space: nowrap;
+}
+
+.socials .socials-list .socials-github,
+.socials .socials-list .socials-twitter {
+    max-height: 70px;
+    padding: 10px;
+    border: 0px solid;
+    border-radius: 15px;
+    box-shadow: 0 0 2px 5px rgba(0, 0, 0, 0.2);
+    margin: auto;
+    transition: max-width 0.5s;
+    margin-bottom: 20px;
+    text-align: left;
+    overflow: hidden;
+    word-wrap: break-word;
 }
 
 @media screen and (min-width: 1000px) {
@@ -234,27 +225,17 @@ html {
         vertical-align: middle;
         line-height: normal;
     }
+
     .socials .socials-list .socials-github,
     .socials .socials-list .socials-twitter {
         text-decoration: none;
         color: #fff;
         background-color: #2c2d3c;
         max-width: 70px;
-        max-height: 70px;
-        padding: 10px;
-        border: 0px solid;
-        border-radius: 15px;
-        box-shadow: 0 0 2px 5px rgba(0, 0, 0, 0.2);
-        margin: auto;
-        transition: max-width 0.5s;
-        margin-bottom: 20px;
-        text-align: left;
-        overflow: hidden;
-        word-wrap: break-word;
     }
 }
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1000px) {
     .socials .socials-list .socials-github span,
     .socials .socials-list .socials-twitter span {
         font-family: 'Roboto', sans-serif;
@@ -273,23 +254,14 @@ html {
         visibility: visible;
         opacity: 90%;
     }
+
     .socials .socials-list .socials-github,
     .socials .socials-list .socials-twitter {
         text-decoration: none;
         color: #fff;
         background-color: #2c2d3c;
         max-width: 250px;
-        max-height: 70px;
-        padding: 10px;
-        border: 0px solid;
-        border-radius: 15px;
-        box-shadow: 0 0 2px 5px rgba(0, 0, 0, 0.2);
-        margin: auto;
-        transition: max-width 0.5s;
-        margin-bottom: 20px;
-        text-align: left;
-        overflow: hidden;
-        word-wrap: break-word;
+
     }
 }
 
@@ -342,4 +314,3 @@ html {
 .footer ul a:hover {
     opacity: 1;
 }
-
