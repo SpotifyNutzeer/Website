@@ -40,8 +40,7 @@
         <div class="col-md-12">
             <div>
                 <p></p>
-                <p>Hier könnt ihr etwas über euch
-                    schreiben<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>so lange, wie ihr wollt
+                <p>Moin, ich bin Paul, 17 Jahre alt und komme aus Bayern.<br>Ich beherrsche die Sprachen Java, Kotlin, C#, Python und lerne aktuell noch Go und React.<br>Erreichen könnt ihr mich ganz leicht unter <a href=https://Discord.SpotifyNutzer.xyz>Discord</a>
                 </p>
             </div>
         </div>
