@@ -15,7 +15,7 @@
 
 <body>
 <nav class="navbar navbar-light navbar-expand-md navigation" id="nav">
-    <div class="container"><a class="navbar-brand" href="/">SpotifyNutzer & Mikka </a>
+    <div class="container"><a class="navbar-brand" href="/">SpotifyNutzer</a>
         <button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span
                     class="navbar-toggler-icon"></span></button>
         <div class="collapse navbar-collapse" id="navcol-1">
@@ -40,7 +40,7 @@
         <div class="col-md-12">
             <div>
                 <p></p>
-                <p>Moin, ich bin Paul, 17 Jahre alt und komme aus Bayern.<br>Ich beherrsche die Sprachen Java, Kotlin, C#, Python und lerne aktuell noch Go und React.<br>Erreichen könnt ihr mich ganz leicht unter <a href=https://Discord.SpotifyNutzer.xyz>Discord</a>
+                <p>Moin, ich bin Paul, 17 Jahre alt und komme aus Bayern.<br>Ich beherrsche die Sprachen Java, Kotlin, C#, Python und lerne aktuell noch Go und React. Aktuell Programmiere ich an verschiedenen <a href=#projects onclick="scrollToTarget('#projects')">Projekten</a>.<br>Erreichen könnt ihr mich ganz leicht auf <a href=https://twitter.com/spotifynutzer>Twitter</a> oder auf <a href=https://discord.gg/Tgu6vh2W>Discord</a>.
                 </p>
             </div>
         </div>
