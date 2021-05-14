@@ -85,6 +85,28 @@ html {
     opacity: 70%;
 }
 
+.url-shortener{
+    margin-bottom: 50px;
+}
+.url-shortener p,
+.url-shortener h1{
+    color: #ffffff;
+    opacity: 70%;
+}
+
+.outer-url-shortener{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#urlshortener-error,
+#urlshortener-success{
+    visibility: hidden;
+    transition: 2s;
+}
+
 .projects .col-md-6,
 .projects .col-md-4{
     min-width: 340px;

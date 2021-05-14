@@ -47,6 +47,23 @@
     </div>
 </div>
 
+<section class="container url-shortener" id="url-shortener">
+    <div class="container">
+        <div class="intro">
+            <h1 class="text-center">Url kürzen 123</h1>
+            <p class="text-center">Kürze jetzt deine URL usw. </p>
+        </div>
+        <p class="text-center invalid-feedback" id="urlshortener-error"></p>
+        <p class="text-center text-success" id="urlshortener-success"></p>
+        <div class="outer-url-shortener">
+        <form class="form-inline url-form" method="post" id="urlshortener">
+            <div class="form-group"><input type="url" class="form-control" name="url" placeholder="Url zum kürzen" /></div>
+            <div class="form-group"><button class="btn btn-primary" type="submit">Kürzen</button></div>
+        </form>
+        </div>
+    </div>
+</section>
+
 <div class="container projects" id="projects">
     <div class="heading">
         <h1>Unsere Projekte</h1>
@@ -179,9 +196,10 @@
         <li class="list-inline-item"><a href="/datenschutz">Datenschutzerklärung</a></li>
     </ul>
 </footer>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://kit.fontawesome.com/2226ce608c.js" crossorigin="anonymous"></script>
+<script src="/assets/js/urlshortener.js"></script>
 <script>
     function scrollToTarget(target) {
         $('html,body').animate({
