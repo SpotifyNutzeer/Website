@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Paul</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
@@ -52,9 +52,7 @@
         <h1>Unsere Projekte</h1>
     </div>
     <div class="row">
-
-        <div class="col-md-4">
-
+        <div class="col-md-4 mx-auto">
             <div class="card-border">
                 <div class="card-holder">
                     <div class="card-heading">
@@ -125,7 +123,7 @@
         </div>
         <div class="row">
 
-            <div class="col-md-6 socials-spotifynutzer">
+            <div class="col-md-6 mx-auto socials-spotifynutzer">
                 <div class="socials-innerheading">
                     <h2>SpotifyNutzer</h2>
                 </div>
@@ -147,7 +145,7 @@
                     </a>
                 </div>
             </div>
-            <div class="col-md-6 socials-kxmpetentes">
+            <div class="col-md-6 mx-auto socials-kxmpetentes">
                 <div class="socials-innerheading">
                     <h2>kxmpetentes</h2>
                 </div>
@@ -182,7 +180,7 @@
     </ul>
 </footer>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://kit.fontawesome.com/2226ce608c.js" crossorigin="anonymous"></script>
 <script>
     function scrollToTarget(target) {
