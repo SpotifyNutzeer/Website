@@ -56,8 +56,8 @@
 <section class="container url-shortener" id="url-shortener">
     <div class="container">
         <div class="intro">
-            <h1 class="text-center">Url kürzen 123</h1>
-            <p class="text-center">Kürze jetzt deine URL usw. </p>
+            <h1 class="text-center">Url Kürzer</h1>
+            <p class="text-center">Hier kannst du deine URL Kürzen</p>
         </div>
         <p class="text-center invalid-feedback" id="urlshortener-error"></p>
         <p class="text-center text-success" id="urlshortener-success"></p>
