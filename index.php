@@ -1,3 +1,6 @@
+<?php
+header('Content-Type: text/html; charset=utf-8');
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,7 +9,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>SpotifyNutzer.xyz | HomePage</title>
-    <meta property="og:title" content="SpotifyNutzer.xyz | Impressum">
+    <meta property="og:title" content="SpotifyNutzer.xyz">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://spotifynutzer.xyz">
     <meta property="og:description" content="Hey, ich heiße Paul, bin 17 Jahre alt und kann die Sprachen Java, Kotlin und Python.">
