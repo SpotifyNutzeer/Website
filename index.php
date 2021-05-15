@@ -5,7 +5,13 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Paul</title>
+    <title>SpotifyNutzer.xyz | HomePage</title>
+    <meta property="og:title" content="SpotifyNutzer.xyz | Impressum">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://spotifynutzer.xyz">
+    <meta property="og:description" content="Hey, ich heiße Paul, bin 17 Jahre alt und kann die Sprachen Java, Kotlin und Python.">
+    <meta property="og:image" content="https://images-ext-1.discordapp.net/external/YPZPC-4MDcjOZPgJCsigse9YtEV0B9w62imRPXLbq1s/https/cdn.discordapp.com/avatars/461917424631939092/a_621f4c2365b161fb7b911f980dfe59f6.gif">
+    <meta name="theme-color" content="#454343">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
