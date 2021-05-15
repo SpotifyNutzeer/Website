@@ -1,3 +1,6 @@
+<?php
+header('Content-Type: application/html');
+?>
 <!DOCTYPE html>
 <html lang="en">
 
