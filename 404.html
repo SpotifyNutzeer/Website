@@ -9,13 +9,6 @@
     <link rel="stylesheet" href="/assets/css/404.css">
     <link rel="stylesheet" href="/assets/css/styles.css">
 </head>
-
-<?php
-    require_once($_SERVER['DOCUMENT_ROOT'] . '/scripts/Utils.php');
-    $utils = new Utils();
-    $utils->logConnection();
-?>
-
 <body class="bg-purple" style="background-color: #0f1321">
 
 <div class="stars">
@@ -48,30 +41,6 @@
 
 </body>
 
-<script src="/assets/js/jquery.min.js"></script>
-<script src="/assets/bootstrap/js/bootstrap.min.js"></script>
-<script>
-    (function() {
-        var elem = document.getElementById('astronaut'), pos = 0,
-            timer = setInterval(function() {
-                pos++;
-                elem.style.left = pos+"px";
-                elem.style.top = pos/3+"px";
-
-                elem.style.webkitTransform = 'rotate('+pos-200+'deg)';
-                elem.style.mozTransform    = 'rotate('+pos-200+'deg)';
-                elem.style.msTransform     = 'rotate('+pos-200+'deg)';
-                elem.style.oTransform      = 'rotate('+pos-200+'deg)';
-                elem.style.transform       = 'rotate('+pos-200+'deg)';
-
-                console.log(pos);
-                if(pos == 2000 - (pos/4)){
-                    pos = -100;
-                }
-            },40);
-    })();
-
-</script>
-</body>
+<script src="assets/js/404.js"></script>
 
 </html>
